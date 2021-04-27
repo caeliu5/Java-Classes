@@ -6,7 +6,7 @@ public class Counter{
 
     public void displayCount(){
 
-      //No se muestra en CounterTest 
+      //No se muestra en CounterTest.java
       while (MAX_COUNT <= count ) {
 
           System.out.println(count);
