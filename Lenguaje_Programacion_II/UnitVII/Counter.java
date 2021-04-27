@@ -6,10 +6,12 @@ public class Counter{
 
     public void displayCount(){
 
-      //No se muestra en CounterTest 
+      //No se muestra en CounterTest.java
+        
       while (MAX_COUNT <= count ) {
 
           System.out.println(count);
+          System.out.println("De aqui sale algo no?");
           count=count+step=1;
        }
             
